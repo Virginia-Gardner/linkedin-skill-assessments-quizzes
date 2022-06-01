@@ -859,7 +859,7 @@ void *vptr=&g;
 - [ ] limits.h
 - [ ] stddef.h
 
-#### Q57. A function is a set of ________.
+#### Q57. A function is a set of **\_**.
 
 - [ ] declarations
 - [x] statements
@@ -875,13 +875,16 @@ void *vptr=&g;
 
 #### Q59. Which code example creates the string "Hello Mars" in storage buffer `hello`.
 
-- [ ] 
+- [ ]
+
 ```c
     char hello[25];
     strcpy(hello, "Hello ");
     strcpy(hello, "Mars");
 ```
-- [x] 
+
+- [x]
+
 ```c
     char hello[25];
     char *p;
@@ -890,18 +893,29 @@ void *vptr=&g;
     p +=6;
     strcpy(p, "Mars");
 ```
-- [ ] 
+
+- [ ]
+
 ```c
     char *hello;
     strcpy(hello, "Hello World");
     hello+=6;
     strcpy(hello, "Mars");
 ```
-- [ ] 
+
+- [ ]
+
 ```c
     char hello[25];
     strcpy(hello, "Hello World");
     strcpy(*hello[6], "Mars");
 ```
+
+#### Q60. If you use the fopen() function with the "a" mode, what happens if the named file doesn't exist?
+
+- [ ] The file is created and opened for reading.
+- [ ] The file is created and opened for writing.
+- [ ] The fopen() function returns a NULL indicating that the operation has failed.
+- [ ] The file is created and opened for both writing and reading
 
 [Reference](https://devdocs.io/c/memory)

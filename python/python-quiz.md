@@ -1132,8 +1132,7 @@ def count_recursive(n=1):
 3
 ```
 
-#### Q83. In Python, when using sets, you use **\_** to calculate the intersection between two sets and **
-\_** to calculate the union.
+#### Q83. In Python, when using sets, you use **\_** to calculate the intersection between two sets and **\_** to calculate the union.
 
 - [ ] `Intersect`; `union`
 - [ ] `|`; `&`
@@ -1389,8 +1388,7 @@ print (f"The number is {number}")
 - [ ] `os.getcwd()`
 - [ ] `sys.executable`
 
-#### Q104. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _
-not_ achieve that goal?
+#### Q104. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will \_not\_ achieve that goal?
 
 ```python
 my_dictionary = {
@@ -1767,3 +1765,15 @@ for x in range(1, len(characters)):
 - [ ] Strings can only be enclosed in single quotes (').
 - [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
 - [ ] Strings can only be enclosed in double quotes (").
+
+#### Q131. What is the correct syntax for defining an _init_() method that takes no parameters?
+
+- [ ] def*init*(self): pass
+- [ ] class*init*(self): pass
+- [ ] class*init*(): pass
+- [x] def*init*(): pass
+
+() -empty parameter
+self -refers to all instances within a class
+_init_ -a reserved method, aka a constructor
+_init_() -always executed when the class is being initiated
